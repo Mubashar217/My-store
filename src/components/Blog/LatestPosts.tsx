@@ -11,8 +11,6 @@ const LatestPosts = ({ blogs }) => {
 
       <div className="p-4 sm:p-6">
         <div className="flex flex-col gap-6">
-          {/* <!-- post item --> */}
-
           {blogs.slice(0, 3).map((blog, key) => (
             <div className="flex items-center gap-4" key={key}>
               <Link
@@ -30,7 +28,9 @@ const LatestPosts = ({ blogs }) => {
 
               <div>
                 <h3 className="text-dark leading-[22px] ease-out duration-200 mb-1.5 hover:text-blue">
-                  <Link href="/blogs/blog-details-with-sidebar">{blog.title}</Link>
+                  <Link href="/blogs/blog-details-with-sidebar">
+                    {blog.title}
+                  </Link>
                 </h3>
 
                 <span className="flex items-center gap-3">
@@ -41,7 +41,6 @@ const LatestPosts = ({ blogs }) => {
                     {blog.date}
                   </a>
 
-                  {/* <!-- divider --> */}
                   <span className="block w-px h-4 bg-gray-4"></span>
 
                   <a

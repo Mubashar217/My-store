@@ -25,7 +25,6 @@ const BlogDetails = () => {
                 Mar 27, 2022
               </a>
 
-              {/* <!-- divider --> */}
               <span className="block w-px h-4 bg-gray-4"></span>
 
               <a href="#" className="ease-out duration-200 hover:text-blue">
@@ -163,7 +162,6 @@ const BlogDetails = () => {
                 </ul>
               </div>
 
-              {/* <!-- Social Links start --> */}
               <div className="flex items-center gap-3">
                 <a
                   href="#"
@@ -244,7 +242,6 @@ const BlogDetails = () => {
                   </svg>
                 </a>
               </div>
-              {/* <!-- Social Links end --> */}
             </div>
           </div>
         </div>

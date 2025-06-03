@@ -23,7 +23,7 @@ const Header = () => {
     openCartModal();
   };
 
-  // Sticky menu
+  
   const handleStickyMenu = () => {
     if (window.scrollY >= 80) {
       setStickyMenu(true);
@@ -54,13 +54,13 @@ const Header = () => {
       }`}
     >
       <div className="max-w-[1170px] mx-auto px-4 sm:px-7.5 xl:px-0">
-        {/* <!-- header top start --> */}
+        
         <div
           className={`flex flex-col lg:flex-row gap-5 items-end lg:items-center xl:justify-between ease-out duration-200 ${
             stickyMenu ? "py-4" : "py-6"
           }`}
         >
-          {/* <!-- header top left --> */}
+          
           <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-5 sm:gap-10">
             <Link className="flex-shrink-0" href="/">
               <Image
@@ -153,7 +153,7 @@ const Header = () => {
               </div>
             </div>
 
-            {/* <!-- divider --> */}
+            
             <span className="hidden xl:block w-px h-7.5 bg-gray-4"></span>
 
             <div className="flex w-full lg:w-auto justify-between items-center gap-5">
@@ -242,7 +242,7 @@ const Header = () => {
                 </button>
               </div>
 
-              {/* <!-- Hamburger Toggle BTN --> */}
+              
               <button
                 id="Toggle"
                 aria-label="Toggler"
@@ -282,24 +282,24 @@ const Header = () => {
                   </span>
                 </span>
               </button>
-              {/* //   <!-- Hamburger Toggle BTN --> */}
+              
             </div>
           </div>
         </div>
-        {/* <!-- header top end --> */}
+        
       </div>
 
       <div className="border-t border-gray-3">
         <div className="max-w-[1170px] mx-auto px-4 sm:px-7.5 xl:px-0">
           <div className="flex items-center justify-between">
-            {/* <!--=== Main Nav Start ===--> */}
+            
             <div
               className={`w-[288px] absolute right-4 top-full xl:static xl:w-auto h-0 xl:h-auto invisible xl:visible xl:flex items-center justify-between ${
                 navigationOpen &&
                 `!visible bg-white shadow-lg border border-gray-3 !h-auto max-h-[400px] overflow-y-scroll rounded-md p-5`
               }`}
             >
-              {/* <!-- Main Nav Start --> */}
+              
               <nav>
                 <ul className="flex xl:items-center flex-col xl:flex-row gap-5 xl:gap-6">
                   {menuData.map((menuItem, i) =>
@@ -327,11 +327,11 @@ const Header = () => {
                   )}
                 </ul>
               </nav>
-              {/* //   <!-- Main Nav End --> */}
+              
             </div>
-            {/* // <!--=== Main Nav End ===--> */}
+            
 
-            {/* // <!--=== Nav Right Start ===--> */}
+            
             <div className="hidden xl:block">
               <ul className="flex items-center gap-5.5">
                 <li className="py-4">
@@ -383,7 +383,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            {/* <!--=== Nav Right End ===--> */}
+            
           </div>
         </div>
       </div>

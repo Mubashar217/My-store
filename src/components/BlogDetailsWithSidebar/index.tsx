@@ -5,7 +5,7 @@ import LatestPosts from "../Blog/LatestPosts";
 import LatestProducts from "../Blog/LatestProducts";
 import blogData from "../BlogGrid/blogData";
 import Image from "next/image";
-import shopData from "../Shop/shopData"; 
+import shopData from "../Shop/shopData";
 
 const BlogDetailsWithSidebar = () => {
   return (
@@ -177,7 +177,7 @@ const BlogDetailsWithSidebar = () => {
                     </ul>
                   </div>
 
-                  {/* <!-- Social Links start --> */}
+                  
                   <div className="flex items-center gap-3">
                     <a
                       href="#"
@@ -258,7 +258,7 @@ const BlogDetailsWithSidebar = () => {
                       </svg>
                     </a>
                   </div>
-                  {/* <!-- Social Links end --> */}
+                  
                 </div>
               </div>
             </div>
