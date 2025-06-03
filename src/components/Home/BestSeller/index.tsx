@@ -25,7 +25,7 @@ const BestSeller = () => {
             </h2>
           </div>
         </div>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7.5">
           
           {shopData.slice(1, 7).map((item, key) => (

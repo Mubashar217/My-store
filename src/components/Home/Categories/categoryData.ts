@@ -1,18 +1,18 @@
 const data = [
   {
-    title: "Televisions",
+    title: "Men",
     id: 1,
-    img: "/images/categories/categories-01.png",
+    img: "/images/categories/13.png",
   },
   {
-    title: "Laptop & PC",
+    title: "Women",
     id: 2,
-    img: "/images/categories/categories-02.png",
+    img: "/images/categories/women.png",
   },
   {
-    title: "Mobile & Tablets",
+    title: "Childe",
     id: 3,
-    img: "/images/categories/categories-03.png",
+    img: "/images/categories/child.png",
   },
   {
     title: "Games & Videos",
