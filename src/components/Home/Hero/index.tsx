@@ -49,10 +49,10 @@ const Hero = () => {
 
                   <div>
                     <Image
-                      src="/images/hero/hero-02.png"
+                      src="/images/hero/herochange01.png"
                       alt="mobile image"
-                      width={123}
-                      height={161}
+                      width={200}
+                      height={200}
                     />
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const Hero = () => {
 
                   <div>
                     <Image
-                      src="/images/hero/hero-01.png"
+                      src="/images/hero/herochange.png"
                       alt="mobile image"
                       width={123}
                       height={161}

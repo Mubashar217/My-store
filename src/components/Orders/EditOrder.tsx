@@ -33,6 +33,7 @@ const EditOrder = ({ order, toggleModal }: any) => {
           <option value="on-hold">On Hold</option>
           <option value="delivered">Delivered</option>
           <option value="cancelled">Cancelled</option>
+          <option value="cancelled">Other</option>
         </select>
 
         <button

@@ -52,10 +52,11 @@ const PreviewSliderModal = () => {
           />
         </svg>
       </button>
+      
 
       <div>
         <button
-          className="rotate-180 absolute left-100 p-5 cursor-pointer z-10 "
+          className="rotate-180 absolute left-100 p-5 cursor-pointer z-10"
           onClick={handlePrev}
         >
           <svg
@@ -94,7 +95,7 @@ const PreviewSliderModal = () => {
           </svg>
         </button>
       </div>
-
+        {/*  */}
       <Swiper ref={sliderRef} slidesPerView={1} spaceBetween={20}>
         <SwiperSlide>
           <div className="flex justify-center items-center">

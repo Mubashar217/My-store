@@ -16,12 +16,12 @@ const ProductItem = ({ item }: { item: Product }) => {
 
   const dispatch = useDispatch<AppDispatch>();
 
-  // update the QuickView state
+  //
   const handleQuickViewUpdate = () => {
     dispatch(updateQuickView({ ...item }));
   };
 
-  // add to cart
+  
   const handleAddToCart = () => {
     dispatch(
       addItemToCart({

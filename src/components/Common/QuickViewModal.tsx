@@ -17,19 +17,19 @@ const QuickViewModal = () => {
 
   const dispatch = useDispatch<AppDispatch>();
 
-  // get the product data
+
   const product = useAppSelector((state) => state.quickViewReducer.value);
 
   const [activePreview, setActivePreview] = useState(0);
 
-  // preview modal
+
   const handlePreviewSlider = () => {
     dispatch(updateproductDetails(product));
 
     openPreviewModal();
   };
 
-  // add to cart
+ 
   const handleAddToCart = () => {
     dispatch(
       addItemToCart({
@@ -42,7 +42,7 @@ const QuickViewModal = () => {
   };
 
   useEffect(() => {
-    // closing modal while clicking outside
+
     function handleClickOutside(event) {
       if (!event.target.closest(".modal-content")) {
         closeModal();
@@ -159,7 +159,7 @@ const QuickViewModal = () => {
 
               <div className="flex flex-wrap items-center gap-5 mb-6">
                 <div className="flex items-center gap-1.5">
-                  {/* <!-- stars --> */}
+
                   <div className="flex items-center gap-1">
                     <svg
                       className="fill-[#FFA645]"

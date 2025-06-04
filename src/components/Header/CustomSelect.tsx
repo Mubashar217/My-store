@@ -14,7 +14,7 @@ const CustomSelect = ({ options }) => {
   };
 
   useEffect(() => {
-    // closing modal while clicking outside
+    
     function handleClickOutside(event) {
       if (!event.target.closest(".dropdown-content")) {
         toggleDropdown();
