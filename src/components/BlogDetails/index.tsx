@@ -65,7 +65,7 @@ const BlogDetails = () => {
 
               <ul className="list-disc pl-6">
                 <li>Consectetur adipiscing elit in voluptate velit.</li>
-                <li>Mattis vulputate cupidatat.</li>
+                <li>Mattis vulputated cupidatat.</li>
                 <li>
                   Vulputate enim nulla aliquet porttitor odio pellentesque
                 </li>
