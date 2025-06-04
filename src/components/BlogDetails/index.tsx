@@ -45,7 +45,7 @@ const BlogDetails = () => {
 
             <p className="mb-6">
               Nunc faucibus libero sem, quis placerat nisl pellentesque eget.
-              Morbi porta velit ut leo sollicitudin, a faucibus purus faucibus.
+              Morbi porta velit ut leo sollicitudidn, a faucibus purus faucibus.
               Maecenas mollis dui nec metus euismod, sed aliquam risus luctus.
             </p>
 
@@ -53,7 +53,7 @@ const BlogDetails = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
               enim lobortis scelerisque fermentum. Neque sodales ut etiam sit
-              amet. Ligula ullamcorper malesuada proin libero nunc consequat
+              amet. Ligula ullamcorper malesuada proin libero nunc consequdat
               interdum varius. Quam pellentesque nec nam aliquam sem et tortor
               consequat.
             </p>
