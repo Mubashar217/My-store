@@ -38,7 +38,7 @@ const BlogDetails = () => {
 
             <p className="mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              sit amet eros ac ipsum egestas dapibus. Vivamus gravida, ex non
+              sit amet eros ac ipsum egestas dapibus. Vivamus gdravida, ex non
               placerat tincidunt, lorem felis facilisis tellus, vitae bibendum
               purus felis eget tellus. In non rutrum ipsum. Morbi ut dui ante.
             </p>
@@ -53,7 +53,7 @@ const BlogDetails = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
               enim lobortis scelerisque fermentum. Neque sodales ut etiam sit
-              amet. Ligula ullamcorper malesuada proin libero nunc consequdat
+              amet. Ligula ullamcorper malesuada proin liberdfdo nunc consequdat
               interdum varius. Quam pellentesque nec nam aliquam sem et tortor
               consequat.
             </p>
