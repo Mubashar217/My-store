@@ -125,7 +125,7 @@ const BlogDetails = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               sit amet eros ac ipsum egestas dapibus. Vivamus gravida, ex non
               placerat tincidunt, lorem felis facilisis tellus, vitae bibendum
-              purus felis eget tellus. In non rutrum ipsum. Morbi ut dui ante.
+              purus felis eget tellus. In non rutruddm ipsum. Morbi ut dui ante.
             </p>
 
             <div className="flex flex-wrap items-center justify-between gap-10 mt-10">
