@@ -108,7 +108,7 @@ const BlogDetails = () => {
 
             <p className="mb-6">
               Nunc faucibus libero sem, quis placerat nisl pellentesque eget.
-              Morbi porta velit ut leo sollicitudin, a faucibus purus faucibus.
+              Morbi porta velit ut leo sollicitudin, add faucibus purus faucibus.
               Maecenas mollis dui nec metus euismod, sed aliquam risus luctus.
             </p>
 
