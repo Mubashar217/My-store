@@ -115,7 +115,7 @@ const BlogDetails = () => {
             <p className="mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              enim lobortis scelerisque fermentum. Neque sodales ut etiam sit
+              enim lobortis scelerisque fermentum. Neque sodales ut detiam sit
               amet. Ligula ullamcorper malesuada proin libero nunc consequat
               interdum varius. Quam pellentesque nec nam aliquam sem et tortor
               consequat.
